@@ -1,0 +1,58 @@
+.layout-toggle {
+  display: flex;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  overflow: hidden;
+  background: white;
+}
+
+.toggle-button {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.6rem 1rem;
+  background: white;
+  color: #3483fa;
+  border: none;
+  font-size: 0.9rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.toggle-button:hover {
+  background: #f5f5f5;
+}
+
+.toggle-button.active {
+  background: #3483fa;
+  color: white;
+}
+
+.toggle-button.active:hover {
+  background: #2968c8;
+}
+
+.toggle-button:first-child {
+  border-right: 1px solid #ddd;
+}
+
+.toggle-button svg {
+  font-size: 0.8rem;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .toggle-button {
+    padding: 0.5rem 0.8rem;
+    font-size: 0.8rem;
+  }
+  
+  .toggle-button span {
+    display: none;
+  }
+  
+  .toggle-button svg {
+    font-size: 1rem;
+  }
+} 
