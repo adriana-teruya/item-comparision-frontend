@@ -8,6 +8,7 @@ const getApiConfig = () => {
     { baseURL: 'http://192.168.15.6:5000', name: 'Porta 5000' },
     { baseURL: 'http://192.168.15.6:8000', name: 'Porta 8000' },
     { baseURL: 'http://192.168.15.6:3001', name: 'Porta 3001' },
+    { baseURL: 'http://localhost:3001', name: 'Localhost 3001' },
     { baseURL: 'http://localhost:8080', name: 'Localhost 8080' },
     { baseURL: 'http://localhost:5000', name: 'Localhost 5000' },
     { baseURL: 'http://localhost:8000', name: 'Localhost 8000' },
